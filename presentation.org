@@ -1,0 +1,31 @@
+#+REVEAL_THEME: moon
+#+REVEAL_TRANS: fade
+
+# Set up the title slide.
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1><h2>%s</h2><h3>%A %a</h3>
+
+# Configure individual pieces of information.
+#+Title: Different title slide
+#+Subtitle: With a subtitle
+#+Author: Matthias Scholz
+
+#+REVEAL_SLIDE_FOOTER: Footer - 2021
+
+* Slide 1: Structuring the Presentation
+
+** Heading within the Slide
+*** Subheading
+
+- Test 1
+- Test 2
+
+* Slide 2: Second Slide
+
+* Exporting
+
+- pdf: https://revealjs.com/pdf-export/
+
+* References
+
+- Emacs Package Usage: https://gitlab.com/oer/org-re-reveal#set-the-location-of-revealjs
+- Examples: https://gitlab.com/oer/org-re-reveal/-/tree/master/test-cases
